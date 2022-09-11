@@ -9,7 +9,41 @@
 </head>
 
 <body>
+  <form action="https://tests.fomenko.top/echo/index.php" method="post">
+    <div>
+      <h1>Форма регистрации</h1>
+      <p>Пожалуйста, заполните эту форму, для создания учетной записи.</p>
 
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Введите вашу почту" name="email" required>
+      </div>
+
+      <div>
+        <label for="password">Пароль</label>
+        <input id="password" type="password" name="psw" placeholder="Введите пароль" required>
+      </div>
+
+      <div>
+        <label for="confirm-password">Повторить пароль</label>
+        <input id="confirm-password" type="password" name="confirm-password" placeholder="Повторите пароль" required>
+      </div>
+
+      <div>
+        <input type="submit" value="Зарегистрироваться">
+        <input type="reset" value="Отменить">
+      </div>
+
+      <div>
+        <a href="authorization.html">У вас уже есть учетная запись?</a>
+      </div>
+
+      <div>
+        <a href="../index.html">Главная</a>
+      </div>
+
+    </div>
+  </form>
 </body>
 
 </html>
