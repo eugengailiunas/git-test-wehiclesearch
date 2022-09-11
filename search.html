@@ -9,6 +9,179 @@
 </head>
 
 <body>
+  <form action="action=https://tests.fomenko.top/echo/index.php" method="post">
+
+    <h1>Поиск автомобиля</h1>
+
+    <fieldset>
+      <legend>Марка автомобиля</legend>
+      <div>
+        <label for="brand">Марка</label>
+        <select name="brand" id="brand">
+          <option value="all">Любая</option>
+          <option value="audi">Audi</option>
+          <option value="bmw">BMW</option>
+          <option value="mb">Mercedes-Benz</option>
+          <option value="nissan">Nissan</option>
+          <option value="mazda">Mazda</option>
+          <option value="renault">Renault</option>
+          <option value="dacia">Dacia</option>
+          <option value="pagani">Pagani</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Тип кузова</legend>
+      <div>
+        <label for="bodytype">Тип кузова</label>
+        <select name="bodytype" id="bodytype">
+          <option value="sedan">Седан</option>
+          <option value="avant">Универсал</option>
+          <option value="liftback">Лифтбек</option>
+          <option value="targa">Тарга</option>
+          <option value="crossover">Кроссовер</option>
+          <option value="cabrio">Кабриолет</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Цвет автомобиля</legend>
+      <div>
+        <label for="color">Цвет</label>
+        <select name="color" id="color">
+          <option value="all">Любой</option>
+          <option value="red">Красный</option>
+          <option value="black">Черный</option>
+          <option value="yellow">Желтый</option>
+          <option value="white">Белый</option>
+          <option value="pink">Розовый</option>
+          <option value="gray">Серый</option>
+          <option value="brown">Коричневый</option>
+          <option value="orange">Оранжевый</option>
+          <option value="green">Зеленый</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Страна производитель</legend>
+      <div>
+        <label for="country">Выбери страну производитель</label>
+        <select name="country" id="country">
+          <option value="germany">Германия</option>
+          <option value="france">Франция</option>
+          <option value="itali">Италия</option>
+          <option value="japan">Япония</option>
+          <option value="romania">Румыния</option>
+          <option value="uk">Соединенное Королевство</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Трансмиссия:</legend>
+      <div>
+        <label for="gearbox">Тип коробки передач</label>
+        <select name="gearbox" id="gearbox">
+          <option value="all">Любая</option>
+          <option value="avto">Автомат</option>
+          <option value="manual">Ручная</option>
+          <option value="robot">Роботизированная</option>
+          <option value="variator">Вариатор</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Состояние автомобиля</legend>
+      <div>
+        <label for="condition">Состояние</label>
+        <select name="condition" id="condition">
+          <option value="damage">Битая</option>
+          <option value="mileage">С пробегом</option>
+          <option value="credit">В кредите</option>
+          <option value="clear">Без повреждений</option>
+          <option value="parts">На запчасти</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Тип топлива</legend>
+      <div>
+        <label for="fuel">Тип топлива</label>
+        <select name="fuel" id="fuel">
+          <option value="disiel">Дизель</option>
+          <option value="electro">Электрическая тяга</option>
+          <option value="hybrid">Гибрид</option>
+          <option value="gasoline">Бензин</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Комфорт</legend>
+      <div>
+        <label for="comfort">Комфорт</label>
+        <select name="comfort" id="comfort">
+          <option value="sunroof">Люк</option>
+          <option value="wheels">Легкосплавные диски</option>
+          <option value="condition">Кондиционер</option>
+          <option value="leather">Кожанный салон</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Год выпуска</legend>
+      <div>
+        <label for="date">Выбери год выпуска</label>
+        <select name="date" id="date">
+          <option value="date1">2013</option>
+          <option value="date2">2014</option>
+          <option value="date3">2015</option>
+          <option value="date4">2016</option>
+          <option value="date5">2017</option>
+          <option value="date6">2018</option>
+          <option value="date7">2019</option>
+          <option value="date8">2020</option>
+          <option value="date9">2021</option>
+          <option value="date10">2022</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Цена</legend>
+      <div>
+        <label for="price">Выбери ценy</label>
+        <select name="price" id="price">
+          <option value="price1">500</option>
+          <option value="price2">1000</option>
+          <option value="price3">1500</option>
+          <option value="price4">2000</option>
+          <option value="price5">2500</option>
+          <option value="price6">3000</option>
+          <option value="price7">3500</option>
+          <option value="price8">4000</option>
+          <option value="price9">4500</option>
+          <option value="price10">5000</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <div>
+      <input type="submit" value="Применить">
+      <input type="reset" value="Отменить">
+    </div>
+
+  </form>
+
+  <div>
+    <a href="../index.html">Главная</a>
+  </div>
 
 </body>
 
